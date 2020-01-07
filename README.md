@@ -23,3 +23,15 @@ php artisan db:seed
 php artisan serve
 
 The API will be running on localhost:8000.
+Titles of the gifs are random names of countries.
+
+API routes:
+
+localhost:8000/api/gifs/id/{id} - to search for gif using its ID
+
+localhost:8000/api/gifs/all - to get all gifs in the database
+
+localhost:8000/api/gifs/search/{title} - to search for gif using its title
+
+localhost:8000/api/gifs/random - to get url and title of the random gif
+

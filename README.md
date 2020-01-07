@@ -12,7 +12,7 @@ DB_USERNAME=your_db_user
 
 DB_PASSWORD=your_password
 
-Then install, migrate, seed, all that jazz:
+Then install, migrate, seed:
 
 composer install
 
